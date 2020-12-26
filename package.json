@@ -7,7 +7,16 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "format": "prettier --write src"
+        "format": "prettier --write src",
+        "lint": "yarn",
+        "pre-push": "yarn"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+            "pre-commit": "yarn lint",
+            "pre-push": "yarn pre-push"
+        }
     },
     "prettier": {
         "printWidth": 80,
@@ -23,6 +32,9 @@
         "react-dom": "17.0.1"
     },
     "devDependencies": {
+        "@commitlint/cli": "11.0.0",
+        "@commitlint/config-conventional": "11.0.0",
+        "husky": "4.3.6",
         "prettier": "2.2.1"
     }
 }
