@@ -1,16 +1,28 @@
 {
-  "name": "videospeedup.com",
-  "description": "A simple website for custom video playback speeds",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.0.4",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+    "name": "videospeedup.com",
+    "description": "A simple website for custom video playback speeds",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "format": "prettier --write src"
+    },
+    "prettier": {
+        "printWidth": 80,
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "always"
+    },
+    "dependencies": {
+        "next": "10.0.4",
+        "react": "17.0.1",
+        "react-dom": "17.0.1"
+    },
+    "devDependencies": {
+        "prettier": "2.2.1"
+    }
 }
