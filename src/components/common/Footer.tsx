@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <footer className="p-5 bg-gray-100 border-t border-gray-300 dark:bg-gray-900 dark:border-gray-700 md:flex md:items-center md:justify-between">
             <Link href="/">
-                <span className="font-bold text-gray-900 hover:underline dark:text-white-100">
+                <span className="font-bold text-gray-900 hover:underline dark:text-gray-100">
                     VideoSpeedup.com
                 </span>
             </Link>
