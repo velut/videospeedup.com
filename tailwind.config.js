@@ -4,7 +4,7 @@ module.exports = {
     purge: {
         content: ['src/**/*.tsx'],
     },
-    darkMode: 'class',
+    darkMode: 'media',
     theme: {
         extend: {
             colors: {
