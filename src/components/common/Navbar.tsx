@@ -1,6 +1,6 @@
 export function Navbar() {
     return (
-        <header className="p-5 text-gray-100 bg-gray-800">
+        <header className="p-5 text-gray-100 bg-gray-800 border-b border-gray-700 dark:bg-gray-900">
             <h1>VideoSpeedup.com</h1>
 
             <p className="mt-1 text-lg font-bold">
