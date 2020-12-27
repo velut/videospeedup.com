@@ -1,7 +1,18 @@
+import NextHead from 'next/head';
+import { Layout } from '../components/common/Layout';
+
 export default function IndexPage() {
+    const pageTitle = 'Index page';
+
     return (
-        <div className="flex items-center justify-center h-screen bg-white">
-            <h1>hello</h1>
-        </div>
+        <>
+            <NextHead>
+                <title>{pageTitle}</title>
+            </NextHead>
+
+            <Layout>
+                <h1>hello</h1>
+            </Layout>
+        </>
     );
 }
