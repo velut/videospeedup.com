@@ -20,6 +20,10 @@ export function Footer() {
                 </li>
 
                 <li>
+                    <Link href="/credits">Credits</Link>
+                </li>
+
+                <li>
                     <A href="https://github.com/velut/videospeedup.com/issues">
                         Report an Issue
                     </A>
