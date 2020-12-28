@@ -28,6 +28,12 @@ export function Footer() {
                         Report an Issue
                     </A>
                 </li>
+
+                <li>
+                    <A href="https://videospeedup.netlify.app/">
+                        Old Website Version
+                    </A>
+                </li>
             </ul>
         </footer>
     );
