@@ -18,6 +18,19 @@ export default function IndexPage() {
             <NextHead>
                 <title>{pageTitle}</title>
                 <meta name="description" content={pageDescription} />
+
+                <meta property="og:title" content={pageTitle} />
+                <meta property="og:description" content={pageDescription} />
+                <meta
+                    property="og:url"
+                    content="https://www.videospeedup.com"
+                />
+
+                <meta property="twitter:title" content={pageTitle} />
+                <meta
+                    property="twitter:description"
+                    content={pageDescription}
+                />
             </NextHead>
 
             <Layout>
