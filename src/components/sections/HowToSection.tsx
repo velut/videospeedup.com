@@ -3,7 +3,7 @@ import { A } from '../common/A';
 export function HowToSection() {
     return (
         <section>
-            <h2>How To</h2>
+            <h2>How-to</h2>
 
             <div>
                 <p>
