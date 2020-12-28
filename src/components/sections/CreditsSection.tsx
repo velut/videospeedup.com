@@ -6,7 +6,7 @@ export function CreditsSection() {
             <h2>Credits</h2>
 
             <p>
-                The video featured in the tutorials is{' '}
+                The video featured in the tutorial is{' '}
                 <A href="https://www.youtube.com/watch?v=Lsq0FiXjGHg">
                     Ticking Digital Clock
                 </A>{' '}
