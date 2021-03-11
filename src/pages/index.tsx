@@ -7,11 +7,8 @@ import { SlowdownSection } from '../components/sections/SlowdownSection';
 import { SpeedupSection } from '../components/sections/SpeedupSection';
 
 export default function IndexPage() {
-    const pageTitle =
-        'VideoSpeedup.com | Easily adjust video playback speed on Youtube, Vimeo, Netflix, Prime Video and many more.';
-
-    const pageDescription =
-        'VideoSpeedup.com provides easy to use bookmarklets that let you adjust video playback speed on Youtube, Vimeo, Netflix, Prime Video and many more video platforms.';
+    const pageTitle = `Speed up videos on Youtube, Vimeo, Netflix, Prime Video and many more | VideoSpeedup.com`;
+    const pageDescription = `VideoSpeedup.com lets you easily change video playback speed on Youtube, Vimeo, Netflix, Prime Video and many more video platforms.`;
 
     return (
         <>
