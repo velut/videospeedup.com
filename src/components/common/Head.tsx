@@ -40,6 +40,11 @@ export function Head() {
                     src="https://plausible.videospeedup.com/js/plausible.outbound-links.js"
                 />
             )}
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`,
+                }}
+            />
         </NextHead>
     );
 }
