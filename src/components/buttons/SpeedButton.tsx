@@ -1,5 +1,13 @@
-export function SpeedButton({ speed }: { speed: number }) {
-    const bookmarklet = `javascript:(function(){var v=document.querySelector('video');v.playbackRate=v.playbackRate!=1?1:${speed};})();`;
+export function SpeedButton({
+    speed,
+    forceSpeed = false,
+}: {
+    speed: number;
+    forceSpeed?: boolean;
+}) {
+    const bookmarklet = forceSpeed
+        ? `javascript:(function(){var v=document.querySelector('video');v.playbackRate=${speed};})();`
+        : `javascript:(function(){var v=document.querySelector('video');v.playbackRate=v.playbackRate!=1?1:${speed};})();`;
     const icon = speed < 1 ? '⏪' : '⏩';
     const text = `${icon} ${speed}x`;
     const classes =

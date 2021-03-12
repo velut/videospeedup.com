@@ -4,6 +4,7 @@ import { SpeedButton } from '../buttons/SpeedButton';
 export function CustomSpeedSection() {
     const [value, setValue] = useState('1');
     const [speed, setSpeed] = useState(parseFloat(value));
+    const [forceSpeed, setForceSpeed] = useState(false);
 
     return (
         <section>
@@ -22,8 +23,28 @@ export function CustomSpeedSection() {
                 effect (for example, <span className="italic">1.2</span>).
             </p>
 
+            <div className="flex justify-center mt-6">
+                <div className="flex items-center pr-4 border border-gray-300 rounded shadow-md dark:border-gray-700">
+                    <label className="p-4" htmlFor="force-custom-speed-input">
+                        Just set the desired speed, don't go back to 1x when
+                        clicking the custom speed button again
+                    </label>
+
+                    <input
+                        className="p-2 rounded"
+                        id="force-custom-speed-input"
+                        name="force-custom-speed-input"
+                        type="checkbox"
+                        checked={forceSpeed}
+                        onChange={(e) => {
+                            setForceSpeed(e.target.checked);
+                        }}
+                    />
+                </div>
+            </div>
+
             <div className="grid grid-cols-1 gap-4 mt-6 sm:gap-6 sm:grid-cols-2">
-                <div className="">
+                <div>
                     <label className="sr-only" htmlFor="custom-speed-input">
                         Enter the desired speed
                     </label>
@@ -31,6 +52,7 @@ export function CustomSpeedSection() {
                     <input
                         className="w-full h-full p-4 text-lg border border-gray-300 rounded dark:border-gray-700 dark:bg-gray-900"
                         id="custom-speed-input"
+                        name="custom-speed-input"
                         type="number"
                         min={0}
                         step={0.01}
@@ -54,7 +76,7 @@ export function CustomSpeedSection() {
                     />
                 </div>
 
-                <SpeedButton speed={speed} />
+                <SpeedButton speed={speed} forceSpeed={forceSpeed} />
             </div>
         </section>
     );
