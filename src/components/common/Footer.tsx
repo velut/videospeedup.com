@@ -30,7 +30,7 @@ export function Footer() {
                 </li>
 
                 <li>
-                    <A href="https://videospeedup.netlify.app/">
+                    <A href="https://videospeedup.netlify.app/" rel="nofollow">
                         Old Website Version
                     </A>
                 </li>
