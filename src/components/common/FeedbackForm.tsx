@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
 const minute = 60 * 1000;
-const week = 7 * 24 * 60 * 60 * 1000;
+const month = 30 * 24 * 60 * 60 * 1000;
 
 export function FeedbackForm() {
     const now = new Date();
     const feedbackDate = new Date(localStorage.feedbackDate ?? now);
     const diff = now.getTime() - feedbackDate.getTime();
 
-    if (diff >= week) {
+    if (diff >= month) {
         localStorage.removeItem('feedbackValue');
         localStorage.removeItem('feedbackDate');
     }
@@ -28,7 +28,7 @@ export function FeedbackForm() {
         }
     };
 
-    if (diff > minute && diff < week) {
+    if (diff > minute && diff < month) {
         return null;
     }
 
