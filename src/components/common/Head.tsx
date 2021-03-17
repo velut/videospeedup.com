@@ -37,7 +37,7 @@ export function Head() {
                     async
                     defer
                     data-domain="videospeedup.com"
-                    src="https://plausible.videospeedup.com/js/plausible.outbound-links.js"
+                    src="https://plausible.io/js/plausible.outbound-links.js"
                 />
             )}
             <script
