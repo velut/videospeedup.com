@@ -26,7 +26,7 @@
         "@types/fs-extra": "9.0.11",
         "@types/node": "15.6.1",
         "@types/react": "17.0.9",
-        "autoprefixer": "10.2.5",
+        "autoprefixer": "10.2.6",
         "eslint-plugin-prettier": "3.4.0",
         "husky": "6.0.0",
         "license-webpack-plugin": "2.3.19",
