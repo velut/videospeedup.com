@@ -33,12 +33,7 @@ export function Head() {
             {/* Plausible.io analytics */}
             {/* See https://github.com/vercel/next.js/issues/9070#issuecomment-552981178 */}
             {process.env.NODE_ENV === 'production' && process.browser && (
-                <script
-                    async
-                    defer
-                    data-domain="videospeedup.com"
-                    src="https://plausible.io/js/plausible.outbound-links.js"
-                />
+                <script defer data-domain="videospeedup.com" src="/js/pol.js" />
             )}
             <script
                 dangerouslySetInnerHTML={{
