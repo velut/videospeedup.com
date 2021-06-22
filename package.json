@@ -8,7 +8,7 @@
         "build": "next build",
         "start": "next start",
         "format": "prettier --write src",
-        "lint": "tsdx lint src",
+        "lint": "next lint",
         "pre-push": "yarn && yarn lint && yarn build",
         "prepare": "husky install"
     },
