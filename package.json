@@ -36,7 +36,6 @@
         "prettier": "2.3.1",
         "stylelint-config-recommended": "5.0.0",
         "tailwindcss": "2.2.2",
-        "tsdx": "0.14.1",
         "typescript": "4.3.4"
     }
 }
