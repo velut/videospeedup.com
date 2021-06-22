@@ -1,9 +1,6 @@
 const { LicenseWebpackPlugin } = require('license-webpack-plugin');
 
 module.exports = {
-    future: {
-        webpack5: true,
-    },
     webpack: (config, { isServer }) => {
         const isClient = !isServer;
 
