@@ -10,20 +10,20 @@ export function SlowdownSection() {
             <h2>Slowdown Controls</h2>
 
             <p>
-                Drag and drop the slowdown buttons displayed below to your
-                browser's bookmarks bar above.
+                {`Drag and drop the slowdown buttons displayed below to your
+                browser's bookmarks bar above.`}
             </p>
 
             <p>
-                When on a video page, click on the button now present in your
-                browser's bookmarks bar to achieve the desired slowdown.
+                {`When on a video page, click on the button now present in your
+                browser's bookmarks bar to achieve the desired slowdown.`}
             </p>
 
             <div className="flex justify-center mt-6">
                 <div className="flex items-center pr-4 border border-gray-300 rounded shadow-md dark:border-gray-700">
                     <label className="p-4" htmlFor="force-slowdown-input">
-                        Just set the desired speed, don't go back to 1x when
-                        clicking the slowdown buttons again
+                        {`Just set the desired speed, don't go back to 1x when
+                        clicking the slowdown buttons again`}
                     </label>
 
                     <input

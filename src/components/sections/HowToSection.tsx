@@ -13,8 +13,8 @@ export function HowToSection() {
 
                 <ol className="mt-2 ml-8 list-decimal">
                     <li>
-                        Make sure your browser's bookmarks bar is visible. See
-                        instructions for{' '}
+                        {`Make sure your browser's bookmarks bar is visible.`}{' '}
+                        See instructions for{' '}
                         <A href="https://www.howtogeek.com/415733/how-to-show-or-hide-the-google-chrome-bookmarks-bar/">
                             Chrome
                         </A>
@@ -34,18 +34,18 @@ export function HowToSection() {
                     </li>
 
                     <li>
-                        Drag and drop the buttons displayed below to your
-                        browser's bookmarks bar.
+                        {`Drag and drop the buttons displayed below to your
+                        browser's bookmarks bar.`}
                     </li>
 
                     <li>
-                        Check that the button you selected is now present in
-                        your browser's bookmarks bar.
+                        {`Check that the button you selected is now present in
+                        your browser's bookmarks bar.`}
                     </li>
 
                     <li>
-                        When watching a video, click the button in your
-                        browser's bookmarks bar to change playback speed.
+                        {`When watching a video, click the button in your
+                        browser's bookmarks bar to change playback speed.`}
                     </li>
 
                     <li>

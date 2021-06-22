@@ -77,8 +77,8 @@ function AnalyticsSection() {
             </p>
 
             <p>
-                Plausible doesn't use cookies and doesn't collect or store
-                personal data.
+                {`Plausible doesn't use cookies and doesn't collect or store
+                personal data.`}
             </p>
 
             <p>

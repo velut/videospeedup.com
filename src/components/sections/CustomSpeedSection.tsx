@@ -26,8 +26,8 @@ export function CustomSpeedSection() {
             <div className="flex justify-center mt-6">
                 <div className="flex items-center pr-4 border border-gray-300 rounded shadow-md dark:border-gray-700">
                     <label className="p-4" htmlFor="force-custom-speed-input">
-                        Just set the desired speed, don't go back to 1x when
-                        clicking the custom speed button again
+                        {`Just set the desired speed, don't go back to 1x when
+                        clicking the custom speed button again`}
                     </label>
 
                     <input
