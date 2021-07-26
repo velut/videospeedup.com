@@ -12,8 +12,8 @@ export function Navbar() {
             </h1>
 
             <p className="mt-1 text-lg font-bold">
-                Easily adjust video playback speed on Youtube, Vimeo, Netflix,
-                Prime Video and many more.
+                Easily adjust video playback speed on Youtube, Twitch, Vimeo,
+                Netflix, Prime Video and many more.
             </p>
         </header>
     );
