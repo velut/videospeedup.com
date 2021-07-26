@@ -11,7 +11,7 @@ export function Footer() {
                     </span>
                 </Link>{' '}
                 created by{' '}
-                <A href="https://github.com/velut">Edoardo Scibona</A>
+                <A href="https://twitter.com/EdoardoScibona">Edoardo Scibona</A>
             </p>
 
             <ul className="mt-4 space-y-1 md:mt-0 sm:flex sm:space-x-4 sm:space-y-0">
