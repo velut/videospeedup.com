@@ -16,8 +16,8 @@ const FeedbackForm = dynamic(
 ) as any;
 
 export default function IndexPage() {
-    const pageTitle = `Speed up videos on Youtube, Vimeo, Netflix, Prime Video and many more | VideoSpeedup.com`;
-    const pageDescription = `VideoSpeedup.com lets you easily change video playback speed on Youtube, Vimeo, Netflix, Prime Video and many more video platforms.`;
+    const pageTitle = `Speed up videos on Youtube, Twitch, Vimeo, Netflix, Prime Video and many more | VideoSpeedup.com`;
+    const pageDescription = `VideoSpeedup.com lets you easily change video playback speed on Youtube, Twitch, Vimeo, Netflix, Prime Video and many more video platforms.`;
 
     return (
         <>
