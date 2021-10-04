@@ -32,7 +32,7 @@
         "eslint-plugin-prettier": "4.0.0",
         "husky": "7.0.2",
         "license-webpack-plugin": "2.3.21",
-        "postcss": "8.3.8",
+        "postcss": "8.3.9",
         "prettier": "2.4.1",
         "stylelint-config-recommended": "5.0.0",
         "tailwindcss": "2.2.16",
