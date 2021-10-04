@@ -23,7 +23,7 @@
         "@commitlint/cli": "13.1.0",
         "@commitlint/config-conventional": "13.1.0",
         "@tailwindcss/forms": "0.3.4",
-        "@types/fs-extra": "9.0.12",
+        "@types/fs-extra": "9.0.13",
         "@types/node": "16.10.2",
         "@types/react": "17.0.27",
         "autoprefixer": "10.3.6",
