@@ -21,7 +21,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "14.1.0",
-        "@commitlint/config-conventional": "14.1.0",
+        "@commitlint/config-conventional": "15.0.0",
         "@tailwindcss/forms": "0.3.4",
         "@types/fs-extra": "9.0.13",
         "@types/node": "16.11.9",
