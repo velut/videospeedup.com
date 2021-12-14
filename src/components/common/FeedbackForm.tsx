@@ -34,7 +34,7 @@ export function FeedbackForm() {
 
     return (
         <div className="flex items-center justify-center">
-            <div className="flex-col items-center justify-center flex-grow max-w-md p-4 space-y-2 border border-gray-300 rounded shadow-md dark:border-gray-700">
+            <div className="flex-col items-center justify-center grow max-w-md p-4 space-y-2 border border-gray-300 rounded shadow-md dark:border-gray-700">
                 <span className="block text-lg text-center">
                     {!feedback
                         ? 'Did you find this website useful?'
