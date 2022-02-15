@@ -31,7 +31,7 @@
         "eslint-config-next": "12.0.10",
         "eslint-plugin-prettier": "4.0.0",
         "husky": "7.0.4",
-        "license-webpack-plugin": "4.0.1",
+        "license-webpack-plugin": "4.0.2",
         "postcss": "8.4.6",
         "prettier": "2.5.1",
         "stylelint-config-recommended": "7.0.0",
