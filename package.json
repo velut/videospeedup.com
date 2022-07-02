@@ -29,7 +29,7 @@
         "autoprefixer": "10.4.7",
         "eslint": "8.16.0",
         "eslint-config-next": "12.2.0",
-        "eslint-plugin-prettier": "4.0.0",
+        "eslint-plugin-prettier": "4.2.1",
         "husky": "8.0.1",
         "license-webpack-plugin": "4.0.2",
         "postcss": "8.4.14",
