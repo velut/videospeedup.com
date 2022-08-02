@@ -26,7 +26,7 @@
         "@types/fs-extra": "9.0.13",
         "@types/node": "18.0.0",
         "@types/react": "18.0.14",
-        "autoprefixer": "10.4.7",
+        "autoprefixer": "10.4.8",
         "eslint": "8.19.0",
         "eslint-config-next": "12.2.0",
         "eslint-plugin-prettier": "4.2.1",
