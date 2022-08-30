@@ -15,7 +15,7 @@
     "dependencies": {
         "clean-deep": "^3.4.0",
         "fs-extra": "^10.1.0",
-        "next": "12.2.3",
+        "next": "12.2.4",
         "react": "18.2.0",
         "react-dom": "18.2.0"
     },
