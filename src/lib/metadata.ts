@@ -1,4 +1,5 @@
 export const projectName = 'videospeedup.com';
+export const projectNameStylized = 'VideoSpeedup.com';
 export const baseUrl = `https://www.videospeedup.com`;
 export const githubUrl = `https://github.com/velut/${projectName}`;
 export const githubIssuesUrl = `${githubUrl}/issues`;
