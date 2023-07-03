@@ -9,3 +9,6 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 /A_OLD
+
+# Ignore build time generated src/licenses.json
+src/licenses.json
