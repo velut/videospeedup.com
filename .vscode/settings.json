@@ -1,5 +1,5 @@
 {
-	"cSpell.ignoreWords": ["videospeedup"],
+	"cSpell.ignoreWords": ["Edoardo", "Scibona", "daisyui", "tailwindcss", "videospeedup"],
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#830516",
 		"activityBar.background": "#830516",
@@ -14,5 +14,7 @@
 		"statusBarItem.remoteBackground": "#52030e",
 		"statusBarItem.remoteForeground": "#e7e7e7"
 	},
-	"peacock.color": "#52030e"
+	"peacock.color": "#52030e",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib"
 }
