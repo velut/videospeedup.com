@@ -22,8 +22,6 @@ export function FeedbackForm() {
             localStorage.feedbackValue = feedback;
             localStorage.feedbackDate = new Date().toISOString();
 
-            window.plausible('Feedback', { props: { value: feedback } });
-
             setFeedback(feedback);
         }
     };

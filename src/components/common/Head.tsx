@@ -29,17 +29,6 @@ export function Head() {
                 property="twitter:image:alt"
                 content="VideoSpeedup.com logo"
             />
-
-            {/* Plausible.io analytics */}
-            {/* See https://github.com/vercel/next.js/issues/9070#issuecomment-552981178 */}
-            {process.env.NODE_ENV === 'production' && process.browser && (
-                <script defer data-domain="videospeedup.com" src="/js/pol.js" />
-            )}
-            <script
-                dangerouslySetInnerHTML={{
-                    __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`,
-                }}
-            />
         </NextHead>
     );
 }
