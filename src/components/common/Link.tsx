@@ -10,7 +10,7 @@ export function Link({
     children: React.ReactNode;
 }) {
     return (
-        <NextLink href={href}>
+        <NextLink href={href} legacyBehavior>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
                 className="text-blue-700 dark:text-blue-300 hover:underline"
