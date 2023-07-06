@@ -8,7 +8,7 @@
 	} from '$lib/metadata';
 </script>
 
-<footer class="footer bg-base-300 p-8 text-base text-base-content">
+<footer class="footer bg-base-200 p-8 text-base text-base-content">
 	<div>
 		<a href="/" class="link-hover link flex items-center gap-2">
 			<div class="text-lg font-bold">⏩ {projectNameStylized}</div>
