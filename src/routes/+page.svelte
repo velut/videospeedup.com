@@ -1,6 +1,7 @@
 <script lang="ts">
 	import HowTo from '$lib/components/HowTo.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
+	import SpeedupControls from '$lib/components/SpeedupControls.svelte';
 	import { projectNameStylized } from '$lib/metadata';
 </script>
 
@@ -12,6 +13,9 @@
 <main class="flex items-center justify-center p-4 sm:p-8">
 	<article class="prose">
 		<HowTo />
+		<div class="divider" />
+
+		<SpeedupControls />
 		<div class="divider" />
 	</article>
 </main>
