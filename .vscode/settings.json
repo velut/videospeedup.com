@@ -1,5 +1,14 @@
 {
-	"cSpell.ignoreWords": ["Edoardo", "Scibona", "daisyui", "tailwindcss", "videospeedup"],
+	"cSpell.ignoreWords": [
+		"Edoardo",
+		"Scibona",
+		"daisyui",
+		"hasha",
+		"klaw",
+		"pathe",
+		"tailwindcss",
+		"videospeedup"
+	],
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#830516",
 		"activityBar.background": "#830516",
