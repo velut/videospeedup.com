@@ -6,9 +6,7 @@
 	$: icon = speed >= 1 ? '⏩' : '⏪';
 </script>
 
-<div class="btn btn-lg normal-case btn-neutral shadow-lg">
-	<a href={js}>
-		{icon}
-		{speed}x
-	</a>
-</div>
+<a href={js} class="btn btn-lg normal-case btn-neutral shadow-lg">
+	{icon}
+	{speed}x
+</a>
