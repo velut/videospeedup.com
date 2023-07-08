@@ -1,17 +1,11 @@
 <script lang="ts">
 	import OpenBookIcon from '$lib/components/OpenBookIcon.svelte';
-	import { projectNameStylized } from '$lib/metadata';
 </script>
 
 <h2 class="flex items-center gap-3">
 	<OpenBookIcon class="h-7 w-7 lg:h-9 lg:w-9" />
 	How to use
 </h2>
-
-<p>
-	With <strong>{projectNameStylized}</strong> you can easily adjust video playback speed on Youtube,
-	Twitch, Vimeo, Netflix, Prime Video and many more video platforms.
-</p>
 
 <p>
 	To use the speed controls available below, <strong>follow these steps</strong>:
