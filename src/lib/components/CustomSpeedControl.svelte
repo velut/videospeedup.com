@@ -10,7 +10,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<ShuffleIcon class="h-9 w-9" />
+	<ShuffleIcon class="h-7 w-7 lg:h-9 lg:w-9" />
 	Custom Speed Control
 </h2>
 
