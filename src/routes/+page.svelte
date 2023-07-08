@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CustomSpeedControl from '$lib/components/CustomSpeedControl.svelte';
 	import HowTo from '$lib/components/HowTo.svelte';
 	import Metadata from '$lib/components/Metadata.svelte';
 	import SlowdownControls from '$lib/components/SlowdownControls.svelte';
@@ -20,6 +21,9 @@
 		<div class="divider" />
 
 		<SlowdownControls />
+		<div class="divider" />
+
+		<CustomSpeedControl />
 		<div class="divider" />
 	</article>
 </main>
