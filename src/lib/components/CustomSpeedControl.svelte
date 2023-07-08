@@ -29,7 +29,7 @@
 			id={inputId}
 			name={inputId}
 			type="text"
-			class="input input-lg w-full max-w-xs border-neutral border-2 bg-neutral text-neutral-content"
+			class="input input-lg w-full border-neutral border-2 bg-neutral text-neutral-content"
 			bind:value
 		/>
 	</div>
