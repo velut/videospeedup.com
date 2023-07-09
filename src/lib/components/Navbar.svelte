@@ -1,11 +1,12 @@
 <script>
 	import { projectNameStylized } from '$lib/metadata';
-	import FastForwardIcon from './FastForwardIcon.svelte';
+	import fastForwardButton from '@iconify/icons-noto/fast-forward-button';
+	import Icon from '@iconify/svelte';
 </script>
 
 <div class="navbar bg-base-200">
 	<a href="/" class="btn btn-ghost normal-case text-xl">
-		<FastForwardIcon class="h-6 w-6" />
+		<Icon icon={fastForwardButton} width="24" height="24" />
 		{projectNameStylized}</a
 	>
 </div>

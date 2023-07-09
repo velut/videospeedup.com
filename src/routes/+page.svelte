@@ -13,7 +13,7 @@
 />
 
 <main class="flex items-center justify-center p-4 sm:p-8">
-	<article class="prose lg:prose-lg">
+	<article class="prose">
 		<div class="divider" />
 		<p class="mt-8">
 			With <strong>{projectNameStylized}</strong> you can easily adjust the playback speed of videos

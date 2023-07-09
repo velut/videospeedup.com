@@ -46,12 +46,11 @@ const manualLicenses: License[] = [
 		url: 'https://tailwindcss.com'
 	},
 	{
-		name: 'twemoji',
-		version: '14.0.2',
-		license: 'MIT, CC-BY-4.0',
-		licenseText:
-			'Copyright 2020 Twitter, Inc and other contributors\nCode licensed under the MIT License: http://opensource.org/licenses/MIT\nGraphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/',
-		url: 'https://twemoji.twitter.com/'
+		name: 'Noto Emoji',
+		version: '15.0',
+		license: 'Apache-2.0',
+		licenseText: '',
+		url: 'https://github.com/googlefonts/noto-emoji'
 	}
 ];
 
@@ -70,7 +69,7 @@ export const licenses = () => {
 			thirdParty: {
 				includePrivate: false,
 				allow: {
-					test: 'MIT OR ISC OR 0BSD',
+					test: 'MIT OR ISC OR 0BSD OR Apache-2.0',
 					failOnUnlicensed: true,
 					failOnViolation: true
 				},

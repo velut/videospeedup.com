@@ -1,9 +1,10 @@
 <script lang="ts">
-	import OpenBookIcon from '$lib/components/OpenBookIcon.svelte';
+	import memoIcon from '@iconify/icons-noto/memo';
+	import Icon from '@iconify/svelte';
 </script>
 
 <h2 class="flex items-center gap-3">
-	<OpenBookIcon class="h-7 w-7 lg:h-9 lg:w-9" />
+	<Icon icon={memoIcon} width="32" height="32" />
 	How to use
 </h2>
 

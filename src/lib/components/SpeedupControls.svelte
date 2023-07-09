@@ -1,12 +1,13 @@
 <script lang="ts">
-	import FastForwardIcon from '$lib/components/FastForwardIcon.svelte';
 	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import fastForwardButton from '@iconify/icons-noto/fast-forward-button';
+	import Icon from '@iconify/svelte';
 
 	const speeds = [1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.5, 4, 5];
 </script>
 
 <h2 class="flex items-center gap-3">
-	<FastForwardIcon class="h-7 w-7 lg:h-9 lg:w-9" />
+	<Icon icon={fastForwardButton} width="32" height="32" />
 	Speedup Controls
 </h2>
 

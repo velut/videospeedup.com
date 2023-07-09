@@ -18,6 +18,8 @@
 		"bunny:deploy": "tsx scripts/deploy-on-bunny.ts"
 	},
 	"devDependencies": {
+		"@iconify/icons-noto": "^1.2.10",
+		"@iconify/svelte": "^3.1.4",
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/adapter-static": "^2.0.2",
 		"@sveltejs/kit": "^1.21.0",

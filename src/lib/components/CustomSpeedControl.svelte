@@ -1,6 +1,7 @@
 <script lang="ts">
-	import ShuffleIcon from '$lib/components/ShuffleIcon.svelte';
 	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import shuffleTracksButton from '@iconify/icons-noto/shuffle-tracks-button';
+	import Icon from '@iconify/svelte';
 
 	const inputId = 'custom-speed-input';
 
@@ -10,7 +11,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<ShuffleIcon class="h-7 w-7 lg:h-9 lg:w-9" />
+	<Icon icon={shuffleTracksButton} width="32" height="32" />
 	Custom Speed Control
 </h2>
 
