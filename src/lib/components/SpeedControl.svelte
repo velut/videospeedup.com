@@ -9,7 +9,7 @@
 	$: js = `javascript:(function(){var v=document.querySelector('video');v.playbackRate=${speed};})();`;
 </script>
 
-<a href={js} class="btn btn-lg normal-case btn-outline border-opacity-50 shadow-lg text-lg">
+<a href={js} class="btn btn-lg normal-case btn-outline shadow-lg text-lg">
 	<Icon {icon} width="24" height="24" />
 	{speed}x
 </a>
