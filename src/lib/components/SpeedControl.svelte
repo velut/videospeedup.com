@@ -5,9 +5,8 @@
 
 	export let speed: number;
 
-	const js = `javascript:(function(){var v=document.querySelector('video');v.playbackRate=${speed};})();`;
-
 	$: icon = speed >= 1 ? fastForwardButton : fastReverseButton;
+	$: js = `javascript:(function(){var v=document.querySelector('video');v.playbackRate=${speed};})();`;
 </script>
 
 <a href={js} class="btn btn-lg normal-case btn-outline border-opacity-50 shadow-lg text-lg">
