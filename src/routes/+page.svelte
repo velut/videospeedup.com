@@ -15,7 +15,7 @@
 <main class="flex items-center justify-center p-4 sm:p-8">
 	<article class="prose">
 		<div class="divider" />
-		<p class="mt-8">
+		<p>
 			With <strong>{projectNameStylized}</strong> you can easily adjust the playback speed of videos
 			on Youtube, Twitch, Vimeo, Netflix, Prime Video and many more video platforms.
 		</p>
