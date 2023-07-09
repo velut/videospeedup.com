@@ -5,7 +5,7 @@
 
 	const inputId = 'custom-speed-input';
 
-	let value = '1';
+	let value = '';
 	$: floatValue = parseFloat(value);
 	$: speed = Number.isFinite(floatValue) ? floatValue : 1;
 </script>
@@ -31,6 +31,7 @@
 			name={inputId}
 			type="text"
 			class="input input-lg w-full input-bordered border-current text-base-content"
+			placeholder="Any speed..."
 			bind:value
 		/>
 	</div>
