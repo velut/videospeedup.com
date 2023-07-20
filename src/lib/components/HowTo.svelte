@@ -9,7 +9,7 @@
 </h2>
 
 <p>
-	To use the speed controls available below, <strong>follow these steps</strong>:
+	To use the speed controls available on this page, <strong>follow these steps</strong>:
 </p>
 
 <ol>
