@@ -15,9 +15,9 @@
 </p>
 
 <div class="form-control">
-	<label class="label cursor-pointer">
+	<label class="label cursor-pointer gap-6">
 		<span class="label-text text-base"
-			>Speed controls only set their speed and never reset to 1x.</span
+			>Speed controls only set their speed and never reset back to 1x.</span
 		>
 		<input
 			id="option-fixed-speed"
@@ -29,7 +29,7 @@
 </div>
 
 <div class="form-control">
-	<label class="label cursor-pointer">
+	<label class="label cursor-pointer gap-6">
 		<span class="label-text text-base"
 			>Speed controls affect all media on a page and not just one element.</span
 		>
@@ -38,7 +38,7 @@
 </div>
 
 <div class="form-control">
-	<label class="label cursor-pointer">
+	<label class="label cursor-pointer gap-6">
 		<span class="label-text text-base"
 			>Speed controls also work on audio elements and not just video ones.</span
 		>

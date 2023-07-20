@@ -16,7 +16,7 @@
 	to watch videos at faster speeds.
 </p>
 
-<div class="not-prose grid grid-cols-2 gap-4 mt-6 sm:gap-6 sm:grid-cols-3 lg:grid-cols-4">
+<div class="not-prose grid grid-cols-2 gap-4 mt-6 sm:gap-6 sm:grid-cols-3">
 	{#each speeds as speed}
 		<SpeedControl {speed} />
 	{/each}

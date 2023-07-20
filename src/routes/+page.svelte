@@ -15,24 +15,30 @@
 />
 
 <main class="flex items-center justify-center p-4 sm:p-8">
-	<article class="prose">
+	<article class="prose lg:max-w-full">
 		<div class="divider" />
 		<Intro />
 		<div class="divider" />
 
-		<HowTo />
-		<div class="divider" />
+		<div class="lg:grid lg:grid-cols-2 gap-16">
+			<div class="max-w-prose">
+				<HowTo />
+				<div class="divider" />
 
-		<Options />
-		<div class="divider" />
+				<Options />
+				<div class="divider" />
+			</div>
 
-		<SpeedupControls />
-		<div class="divider" />
+			<div class="max-w-prose">
+				<SpeedupControls />
+				<div class="divider" />
 
-		<SlowdownControls />
-		<div class="divider" />
+				<SlowdownControls />
+				<div class="divider" />
 
-		<CustomSpeedControl />
-		<div class="divider" />
+				<CustomSpeedControl />
+				<div class="divider" />
+			</div>
+		</div>
 	</article>
 </main>
