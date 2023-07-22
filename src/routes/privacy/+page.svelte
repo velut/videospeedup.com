@@ -11,16 +11,15 @@
 
 <main class="flex items-center justify-center p-4 sm:p-8">
 	<article class="prose">
-		<hgroup>
-			<h1>Privacy Policy</h1>
-			<p>
-				This is the privacy policy for {projectNameStylized}.
-				<br />
-				Last updated on July 6, 2023.
-			</p>
-		</hgroup>
-
 		<div class="divider" />
+		<h1 class="my-0 text-center">Privacy Policy</h1>
+		<div class="divider" />
+
+		<p>
+			This is the privacy policy for {projectNameStylized}.
+			<br />
+			Last updated on July 22, 2023.
+		</p>
 
 		<ul>
 			<li>
