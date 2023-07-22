@@ -20,7 +20,7 @@
 		<Intro />
 		<div class="divider" />
 
-		<div class="lg:grid lg:grid-cols-2 gap-16">
+		<div class="lg:grid lg:grid-cols-2 lg:gap-16">
 			<div class="max-w-prose">
 				<HowTo />
 				<div class="divider" />
