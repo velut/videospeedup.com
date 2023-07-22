@@ -1,11 +1,10 @@
 <script lang="ts">
+	import HammerAndWrenchIcon from '$lib/components/HammerAndWrenchIcon.svelte';
 	import { optionAllMedia, optionFixedSpeed, optionIncludeAudio } from '$lib/stores';
-	import hammerAndWrench from '@iconify/icons-noto/hammer-and-wrench';
-	import Icon from '@iconify/svelte';
 </script>
 
 <h2 class="flex items-center gap-3">
-	<Icon icon={hammerAndWrench} width="32" height="32" />
+	<HammerAndWrenchIcon class="h-8 w-8" />
 	Options
 </h2>
 

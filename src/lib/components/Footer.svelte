@@ -1,4 +1,5 @@
 <script lang="ts">
+	import FastForwardIcon from '$lib/components/FastForwardIcon.svelte';
 	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
 	import {
 		githubCommitShort,
@@ -6,14 +7,12 @@
 		githubUrl,
 		projectNameStylized
 	} from '$lib/metadata';
-	import fastForwardButton from '@iconify/icons-noto/fast-forward-button';
-	import Icon from '@iconify/svelte';
 </script>
 
 <footer class="footer bg-base-200 p-8 text-base text-base-content">
 	<div>
 		<a href="/" class="link-hover link flex items-center gap-2 text-xl font-bold">
-			<Icon icon={fastForwardButton} width="24" height="24" />
+			<FastForwardIcon class="h-6 w-6" />
 			{projectNameStylized}
 		</a>
 		<p>

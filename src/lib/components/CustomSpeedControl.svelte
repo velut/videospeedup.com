@@ -1,7 +1,6 @@
 <script lang="ts">
+	import ShuffleTracksIcon from '$lib/components/ShuffleTracksIcon.svelte';
 	import SpeedControl from '$lib/components/SpeedControl.svelte';
-	import shuffleTracksButton from '@iconify/icons-noto/shuffle-tracks-button';
-	import Icon from '@iconify/svelte';
 
 	const inputId = 'custom-speed-input';
 
@@ -11,7 +10,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<Icon icon={shuffleTracksButton} width="32" height="32" />
+	<ShuffleTracksIcon class="h-8 w-8" />
 	Custom Speed Control
 </h2>
 
@@ -23,14 +22,14 @@
 	for a speedup effect (for example, <code>1.2</code>).
 </p>
 
-<div class="not-prose grid grid-cols-1 gap-4 mt-6 sm:gap-6 sm:grid-cols-2">
+<div class="not-prose mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
 	<div>
 		<label for={inputId} class=" sr-only"> Custom speed value </label>
 		<input
 			id={inputId}
 			name={inputId}
 			type="text"
-			class="input input-lg w-full input-bordered border-current text-base-content"
+			class="input-bordered input input-lg w-full border-current text-base-content"
 			placeholder="Any speed..."
 			bind:value
 		/>

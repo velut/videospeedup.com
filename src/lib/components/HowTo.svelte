@@ -1,10 +1,9 @@
 <script lang="ts">
-	import memoIcon from '@iconify/icons-noto/memo';
-	import Icon from '@iconify/svelte';
+	import MemoIcon from '$lib/components/MemoIcon.svelte';
 </script>
 
 <h2 class="flex items-center gap-3">
-	<Icon icon={memoIcon} width="32" height="32" />
+	<MemoIcon class="h-8 w-8" />
 	How to use
 </h2>
 
