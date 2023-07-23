@@ -4,7 +4,7 @@
 </script>
 
 <div class="navbar bg-base-200">
-	<a href="/" class="btn-ghost btn text-xl normal-case">
+	<a href="/" class="btn btn-ghost text-xl normal-case">
 		<FastForwardIcon class="h-6 w-6" />
 		{projectNameStylized}</a
 	>
