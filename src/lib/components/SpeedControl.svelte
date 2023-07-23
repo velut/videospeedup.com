@@ -14,7 +14,11 @@
 	});
 </script>
 
-<a href={bookmarklet} class="btn-outline btn-lg btn text-lg normal-case shadow-lg">
+<a
+	href={bookmarklet}
+	class="btn-outline btn-lg btn text-lg normal-case shadow-lg"
+	title="↑ Drag and drop this up to the bookmarks bar ↑"
+>
 	{#if speed >= 1}
 		<FastForwardIcon class="h-6 w-6" />
 	{:else}
