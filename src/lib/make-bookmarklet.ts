@@ -6,7 +6,7 @@ export type MakeBookmarkletArgs = {
 };
 
 // See `bookmarklet.js`.
-const bookmarkletMin = `(_,e,s,o)=>{let v=document,t=window,i=t=>{Array.from(v.querySelectorAll(o?"video,audio":"video")).slice(0,s?void 0:1).forEach(s=>{s.playbackRate=e||t?_:1===s.playbackRate?_:1})};if(s)if(t.___vso=t.___vso||new MutationObserver(()=>{i(!0)}),t.___vss=t.___vss||!1,t.___vss)t.___vso.disconnect(),t.___vss=!1;else{let _=v.querySelector("body");t.___vso.observe(_,{subtree:!0,childList:!0}),t.___vss=!0}i()}`;
+const bookmarkletMin = `(_,s,e,v)=>{let o=document,a=window,r=_=>{Array.from(o.querySelectorAll(v?"video,audio":"video")).slice(0,e?void 0:1).forEach(e=>{e.playbackRate=s||_?a.___vss:e.playbackRate!==a.___vss?a.___vss:1})};(()=>{if(e){if(a.___vso=a.___vso||new MutationObserver(()=>{r(!0)}),a.___vsa=a.___vsa||!1,!a.___vsa){let _=o.querySelector("body");return a.___vso.observe(_,{subtree:!0,childList:!0}),void(a.___vsa=!0)}a.___vsa&&a.___vss===_&&(a.___vso.disconnect(),a.___vsa=!1)}})(),a.___vss=_,r()}`;
 
 const shortBool = (b: boolean) => (b ? '!0' : '!1');
 
