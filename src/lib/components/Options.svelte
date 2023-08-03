@@ -9,8 +9,8 @@
 </h2>
 
 <p>
-	Here you can customize how the speed controls will work once added to your browser. To change
-	behavior, you will have to drag and drop the speed controls again.
+	Here you can customize how the speed controls will behave once added to your browser. For changes
+	to take effect, you will have to drag and drop the speed controls again.
 </p>
 
 <div class="divider" />
@@ -57,8 +57,8 @@
 			><span class="font-bold">Speed controls also affect audio-only elements.</span><br /><span
 				class="text-sm"
 				>By default, speed controls only affect video elements in a page. Turn on this feature to
-				have them also affect audio-only elements in a page ("All media elements" feature may also
-				be needed for this to work).</span
+				have them also affect audio-only elements in a page (The "All media elements" feature above
+				may also be needed for this to work).</span
 			></span
 		>
 		<input
