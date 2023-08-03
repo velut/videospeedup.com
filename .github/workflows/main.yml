@@ -1,30 +1,51 @@
-name: CI
-on: [push]
+name: CI for main branch
+
+on:
+  push:
+    branches:
+      - 'main'
+
 jobs:
-  build:
+  # See https://stackoverflow.com/a/73624365/16109047
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node: ['18.x']
-
+    if: github.repository == 'velut/videospeedup.com' && github.ref == 'refs/heads/main'
+    environment: production
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Use Node ${{ matrix.node }}
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
-
-      - name: Install dependencies and build (with cache)
-        uses: bahmutov/npm-install@v1
+          node-version: 18.x
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
+
+      - name: Ensure `src/licenses.json` exists
+        run: pnpm licenses:ensure
 
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
+
+      - name: Check
+        run: pnpm check
 
       - name: Build
-        run: yarn build
+        run: pnpm build
+
+      - name: Deploy to Bunny.net
+        run: pnpm bunny:deploy
+        env:
+          BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+          BUNNY_STORAGE_ZONE_HOSTNAME: ${{ secrets.BUNNY_STORAGE_ZONE_HOSTNAME }}
+          BUNNY_STORAGE_ZONE_NAME: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
+          BUNNY_STORAGE_ZONE_PASSWORD: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
+          BUNNY_PULL_ZONE_NAME: ${{ secrets.BUNNY_PULL_ZONE_NAME }}
