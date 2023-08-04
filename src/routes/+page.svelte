@@ -6,12 +6,11 @@
 	import Options from '$lib/components/Options.svelte';
 	import SlowdownControls from '$lib/components/SlowdownControls.svelte';
 	import SpeedupControls from '$lib/components/SpeedupControls.svelte';
-	import { projectNameStylized } from '$lib/metadata';
 </script>
 
 <Metadata
-	title="Watch videos faster"
-	description="With {projectNameStylized} you can watch videos faster."
+	title="⏩ Watch videos faster"
+	description="VideoSpeedup lets you change the playback speed of videos on Youtube, TikTok, Twitch, Vimeo, Netflix, Prime Video, Disney+ and many more video and streaming platforms."
 />
 
 <main class="flex items-center justify-center p-4 sm:p-8">
