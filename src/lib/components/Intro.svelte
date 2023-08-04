@@ -1,10 +1,6 @@
-<script lang="ts">
-	import { projectNameStylized } from '$lib/metadata';
-</script>
-
 <div class="flex justify-center">
-	<p class="prose my-0">
-		With <strong>{projectNameStylized}</strong> you can easily adjust the playback speed of videos on
-		Youtube, Twitch, Vimeo, Netflix, Prime Video and many more video platforms.
+	<p class="prose my-0 lg:max-w-[75ch]">
+		<strong>VideoSpeedup</strong> lets you change the playback speed of videos on Youtube, TikTok, Twitch,
+		Vimeo, Netflix, Prime Video, Disney+ and many more video and streaming platforms.
 	</p>
 </div>
