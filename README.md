@@ -3,7 +3,7 @@
 [![Build status](https://img.shields.io/github/actions/workflow/status/velut/videospeedup.com/main.yml?branch=main)](https://github.com/velut/videospeedup.com/actions/workflows/main.yml?query=workflow%3ACI)
 [![TypeScript](https://img.shields.io/badge/%3C/%3E-TypeScript-blue)](https://www.typescriptlang.org/)
 ![Language](https://img.shields.io/github/languages/top/velut/videospeedup.com)
-[![License](https://img.shields.io/github/license/velut/videospeedup.com)](https://github.com/velut/videospeedup.com/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/velut/videospeedup.com)](LICENSE)
 
 <p align="center">
     <a href="https://www.videospeedup.com">
