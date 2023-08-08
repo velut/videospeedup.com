@@ -9,7 +9,7 @@
 </script>
 
 <Metadata
-	title="⏩ Watch videos faster"
+	title="Watch videos faster"
 	description="VideoSpeedup lets you change the playback speed of videos on Youtube, TikTok, Twitch, Vimeo, Netflix, Prime Video, Disney+ and many more video and streaming platforms."
 />
 
