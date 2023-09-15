@@ -1,9 +1,9 @@
 <script lang="ts">
-	import MemoIcon from '$lib/components/MemoIcon.svelte';
+	import IconMemo from '~icons/noto/memo';
 </script>
 
 <h2 class="flex items-center gap-3">
-	<MemoIcon class="h-8 w-8" />
+	<IconMemo class="h-8 w-8" />
 	How to use
 </h2>
 

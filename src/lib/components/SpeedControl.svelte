@@ -1,8 +1,8 @@
 <script lang="ts">
-	import FastForwardIcon from '$lib/components/FastForwardIcon.svelte';
-	import FastReverseIcon from '$lib/components/FastReverseIcon.svelte';
 	import { makeBookmarklet } from '$lib/make-bookmarklet';
 	import { optionAllMedia, optionFixedSpeed, optionIncludeAudio } from '$lib/stores';
+	import IconFastForward from '~icons/noto/fast-forward-button';
+	import IconFastReverse from '~icons/noto/fast-reverse-button';
 
 	export let speed: number;
 
@@ -20,9 +20,9 @@
 	title="↑ Drag and drop this up to the bookmarks bar ↑"
 >
 	{#if speed >= 1}
-		<FastForwardIcon class="h-6 w-6" />
+		<IconFastForward class="h-6 w-6" />
 	{:else}
-		<FastReverseIcon class="h-6 w-6" />
+		<IconFastReverse class="h-6 w-6" />
 	{/if}
 	{speed}x
 </a>

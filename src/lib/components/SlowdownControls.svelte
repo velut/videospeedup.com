@@ -1,12 +1,12 @@
 <script lang="ts">
-	import FastReverseIcon from '$lib/components/FastReverseIcon.svelte';
 	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import IconFastReverse from '~icons/noto/fast-reverse-button';
 
 	const speeds = [0.1, 0.25, 0.5, 0.75];
 </script>
 
 <h2 class="flex items-center gap-3">
-	<FastReverseIcon class="h-8 w-8" />
+	<IconFastReverse class="h-8 w-8" />
 	Slowdown Controls
 </h2>
 

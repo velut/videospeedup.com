@@ -1,15 +1,16 @@
 {
 	"cSpell.ignoreWords": [
-		"Bookmarkelts",
-		"Edoardo",
-		"Scibona",
+		"bookmarkelts",
 		"daisyui",
+		"edoardo",
 		"hasha",
 		"iconify",
 		"klaw",
 		"noto",
 		"pathe",
+		"scibona",
 		"tailwindcss",
+		"unplugin",
 		"videospeedup"
 	],
 	"workbench.colorCustomizations": {
