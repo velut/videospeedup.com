@@ -19,7 +19,6 @@
 	},
 	"devDependencies": {
 		"@iconify-json/noto": "^1.1.12",
-		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.25.2",
 		"@tailwindcss/typography": "^0.5.10",
