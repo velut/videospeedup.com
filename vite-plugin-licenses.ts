@@ -90,5 +90,5 @@ export const licenses = () => {
 				}
 			}
 		})
-	} satisfies PluginOption;
+	} as unknown as PluginOption;
 };
