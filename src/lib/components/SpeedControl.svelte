@@ -16,7 +16,7 @@
 
 <a
 	href={bookmarklet}
-	class="btn btn-outline btn-lg text-lg normal-case shadow-lg"
+	class="btn btn-outline btn-lg text-lg shadow-lg"
 	title="↑ Drag and drop this up to the bookmarks bar ↑"
 >
 	{#if speed >= 1}
