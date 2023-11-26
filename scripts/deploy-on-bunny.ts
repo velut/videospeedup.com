@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 
 import 'dotenv/config';
-import hasha from 'hasha';
+import { hash } from 'hasha';
 import klaw from 'klaw';
 import fs from 'node:fs';
 import path from 'pathe';
@@ -57,7 +57,7 @@ const deploy = async () => {
 			const filePath = path.normalize(file.path);
 			const targetPath = filePath.replace(`${buildDir}/`, '');
 			const fileData = fs.readFileSync(file.path);
-			const fileHash = hasha(fileData, { algorithm: 'sha256' }).toUpperCase();
+			const fileHash = (await hash(fileData, { algorithm: 'sha256' })).toUpperCase();
 			const res = await fetch(`https://${storageZoneHostname}/${storageZoneName}/${targetPath}`, {
 				method: 'PUT',
 				headers: {
