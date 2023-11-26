@@ -18,7 +18,7 @@
 		"bunny:deploy": "tsx scripts/deploy-on-bunny.ts"
 	},
 	"devDependencies": {
-		"@iconify-json/noto": "^1.1.13",
+		"@iconify-json/noto": "^1.1.14",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.27.6",
 		"@tailwindcss/typography": "^0.5.10",
