@@ -11,7 +11,8 @@
 		"scibona",
 		"tailwindcss",
 		"unplugin",
-		"videospeedup"
+		"videospeedup",
+		"vite"
 	],
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#830516",
