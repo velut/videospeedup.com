@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify-json/noto':
-    specifier: ^1.1.16
-    version: 1.1.16
+    specifier: ^1.1.17
+    version: 1.1.17
   '@sveltejs/adapter-static':
     specifier: ^2.0.3
     version: 2.0.3(@sveltejs/kit@1.27.6)
@@ -594,8 +594,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/noto@1.1.16:
-    resolution: {integrity: sha512-XqFv/Krt5P+63K+JXyI4pWEtyfraBTxKiJLBDNkBax3hikomEi5B6Ci8DSEcxSRRlTQHRng5IMvtH/6RnyTO5Q==}
+  /@iconify-json/noto@1.1.17:
+    resolution: {integrity: sha512-P8aDKzkKmu7PwY9YcGNMGh9DcfPpjr88tIDRKP2YUSq2IzXuD68rSE8ngliuoq8JzBUyF3RvlWEyRocxepnbtg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
