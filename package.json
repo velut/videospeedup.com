@@ -20,7 +20,7 @@
 	"devDependencies": {
 		"@iconify-json/noto": "^1.1.18",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"@sveltejs/kit": "^2.4.3",
+		"@sveltejs/kit": "^2.5.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.1",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/html-minifier": "^4.0.5",
