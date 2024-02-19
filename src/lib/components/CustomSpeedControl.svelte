@@ -29,7 +29,7 @@
 			id={inputId}
 			name={inputId}
 			type="text"
-			class="input input-lg input-bordered w-full border-current text-base-content"
+			class="input input-lg w-full border-current text-base-content"
 			placeholder="Any speed..."
 			bind:value
 		/>
