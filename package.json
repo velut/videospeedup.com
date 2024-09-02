@@ -38,7 +38,7 @@
 		"hasha": "^6.0.0",
 		"html-minifier": "^4.0.0",
 		"klaw": "^4.1.0",
-		"modern-normalize": "^2.0.0",
+		"modern-normalize": "^3.0.0",
 		"pathe": "^1.1.2",
 		"postcss": "^8.4.43",
 		"prettier": "^3.3.3",
