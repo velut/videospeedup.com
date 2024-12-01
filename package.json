@@ -40,7 +40,7 @@
 		"klaw": "^4.1.0",
 		"modern-normalize": "^3.0.1",
 		"pathe": "^1.1.2",
-		"postcss": "^8.4.47",
+		"postcss": "^8.4.49",
 		"prettier": "^3.4.1",
 		"prettier-plugin-svelte": "^3.2.7",
 		"prettier-plugin-tailwindcss": "^0.6.9",
