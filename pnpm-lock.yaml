@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@iconify-json/noto':
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^1.2.2
+        version: 1.2.2
       '@sveltejs/adapter-static':
         specifier: ^3.0.8
         version: 3.0.8(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10(@types/node@22.10.3)))(svelte@4.2.19)(vite@5.4.10(@types/node@22.10.3)))
@@ -443,8 +443,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@iconify-json/noto@1.2.1':
-    resolution: {integrity: sha512-ZJBvfNBNb64iPf7uhOF20PuArUhYNSe9nheaqLOXfaPEFXd/DsNrDL2CuBCLOVuDxcyRqbhdhhhRBwLikTdrhQ==}
+  '@iconify-json/noto@1.2.2':
+    resolution: {integrity: sha512-nVyjbd3CJ1AhSXdvzlPyku1hZ4cQPzXEgZh65rDUdZi2sEgvHJHdiDcr//6ynoCbFnWb8o1ck6x/s/HND4mWFA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2167,7 +2167,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@iconify-json/noto@1.2.1':
+  '@iconify-json/noto@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 

@@ -19,7 +19,7 @@
 		"pre-push": "pnpm i && pnpm licenses:ensure && pnpm lint && pnpm check && pnpm build"
 	},
 	"devDependencies": {
-		"@iconify-json/noto": "^1.2.1",
+		"@iconify-json/noto": "^1.2.2",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.15.1",
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
