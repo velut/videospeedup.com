@@ -14,21 +14,6 @@
 		"videospeedup",
 		"vite"
 	],
-	"workbench.colorCustomizations": {
-		"activityBar.activeBackground": "#830516",
-		"activityBar.background": "#830516",
-		"activityBar.foreground": "#e7e7e7",
-		"activityBar.inactiveForeground": "#e7e7e799",
-		"activityBarBadge.background": "#1a9a06",
-		"activityBarBadge.foreground": "#e7e7e7",
-		"sash.hoverBorder": "#830516",
-		"statusBar.background": "#52030e",
-		"statusBar.foreground": "#e7e7e7",
-		"statusBarItem.hoverBackground": "#830516",
-		"statusBarItem.remoteBackground": "#52030e",
-		"statusBarItem.remoteForeground": "#e7e7e7"
-	},
-	"peacock.color": "#52030e",
 	"typescript.preferences.importModuleSpecifier": "non-relative",
 	"typescript.tsdk": "node_modules/typescript/lib"
 }
