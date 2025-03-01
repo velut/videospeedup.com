@@ -23,7 +23,7 @@
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.16.1",
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
-		"@tailwindcss/typography": "^0.5.15",
+		"@tailwindcss/typography": "^0.5.16",
 		"@types/html-minifier": "^4.0.5",
 		"@types/node": "^22.13.0",
 		"@typescript-eslint/eslint-plugin": "^7.18.0",
