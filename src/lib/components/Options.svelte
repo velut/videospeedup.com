@@ -16,7 +16,7 @@
 	to take effect, you will have to drag and drop the speed controls again.
 </p>
 
-<div class="divider" />
+<div class="divider"></div>
 
 <div class="form-control">
 	<label class="label cursor-pointer gap-6">
@@ -38,7 +38,7 @@
 	</label>
 </div>
 
-<div class="divider" />
+<div class="divider"></div>
 
 <div class="form-control">
 	<label class="label cursor-pointer gap-6">
@@ -55,7 +55,7 @@
 	</label>
 </div>
 
-<div class="divider" />
+<div class="divider"></div>
 
 <div class="form-control">
 	<label class="label cursor-pointer gap-6">
