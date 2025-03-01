@@ -1,6 +1,6 @@
 import 'unplugin-icons/types/svelte';
 
-// See https://kit.svelte.dev/docs/types#app
+// See https://svelte.dev/docs/kit/types#app.d.ts
 // for information about these interfaces
 declare global {
 	declare const _GIT_COMMIT: string;
@@ -9,6 +9,7 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
+		// interface PageState {}
 		// interface Platform {}
 	}
 }
