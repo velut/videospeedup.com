@@ -9,7 +9,7 @@
 	import IconFastForward from '~icons/noto/fast-forward-button';
 </script>
 
-<footer class="footer bg-base-200 p-8 text-base text-base-content">
+<footer class="footer footer-horizontal bg-base-200 text-base-content p-8 text-base">
 	<div>
 		<a href="/" class="link-hover link flex items-center gap-2 text-xl font-bold">
 			<IconFastForward class="h-6 w-6" />
