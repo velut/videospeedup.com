@@ -47,10 +47,5 @@
 		"typescript": "^5.8.2",
 		"unplugin-icons": "^22.1.0",
 		"vite": "^6.2.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
 	}
 }
