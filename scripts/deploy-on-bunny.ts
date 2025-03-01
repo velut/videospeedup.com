@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-
 import 'dotenv/config';
 import { hash } from 'hasha';
 import klaw from 'klaw';
