@@ -7,7 +7,6 @@
  * @param {boolean} includeAudio If true, select also audio elements in a page.
  * @returns {void}
  */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 let b = (speed, fixedSpeed, allMedia, includeAudio) => {
 	// Shorten successive calls to `document` and `window`.
 	let d = document;
