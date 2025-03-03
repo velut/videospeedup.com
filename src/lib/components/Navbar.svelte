@@ -3,9 +3,8 @@
 	import IconFastForward from '~icons/noto/fast-forward-button';
 </script>
 
-<div class="navbar bg-base-200">
-	<a href="/" class="btn btn-ghost text-xl">
-		<IconFastForward class="h-6 w-6" />
-		{projectNameStylized}</a
+<div class="navbar bg-base-100 shadow-sm">
+	<a href="/" class="btn btn-ghost text-xl"
+		><IconFastForward class="size-6" /> {projectNameStylized}</a
 	>
 </div>
