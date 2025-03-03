@@ -10,7 +10,7 @@
 	let description = $derived(page.data.description);
 	let url = $derived(page.url.toString());
 	let ogImageUrl = $derived(new URL('/twitter_card.jpg', page.url).toString());
-	let ogImageAlt = 'Promotional image for VideoSpeedup.com';
+	const ogImageAlt = 'Promotional image for VideoSpeedup.com';
 </script>
 
 <svelte:head>
