@@ -1,5 +1,5 @@
 <script lang="ts">
-	const changeTheme = () => {
+	function changeTheme() {
 		if (document.documentElement.getAttribute('data-theme') === 'dark') {
 			localStorage.theme = 'light';
 			document.documentElement.setAttribute('data-theme', 'light');
@@ -7,7 +7,7 @@
 			localStorage.theme = 'dark';
 			document.documentElement.setAttribute('data-theme', 'dark');
 		}
-	};
+	}
 </script>
 
-<button class="link-hover link" onclick={changeTheme}>Change Theme</button>
+<button class="link-hover link" onclick={changeTheme}>Change theme</button>
