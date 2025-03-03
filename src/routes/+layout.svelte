@@ -6,12 +6,10 @@
 	let { children } = $props();
 </script>
 
-<div class="flex h-screen flex-col">
+<div class="grid min-h-svh auto-cols-fr grid-rows-[auto_1fr_auto] gap-6">
 	<Navbar />
-
-	<div class="grow">
+	<div>
 		{@render children()}
 	</div>
-
 	<Footer />
 </div>
