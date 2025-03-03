@@ -1,13 +1,6 @@
 <script lang="ts">
-	import Metadata from '$lib/components/Metadata.svelte';
 	import { githubIssuesUrl, projectNameStylized } from '$lib/metadata';
 </script>
-
-<Metadata
-	title="Privacy Policy"
-	description="Privacy policy for {projectNameStylized}"
-	path="privacy"
-/>
 
 <main class="flex items-center justify-center p-4 sm:p-8">
 	<article class="prose">

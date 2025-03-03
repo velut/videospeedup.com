@@ -1,14 +1,14 @@
 <script lang="ts">
-	import Metadata from '$lib/components/Metadata.svelte';
+	// import Metadata from '$lib/components/Metadata.svelte';
 	import { licenses } from '$lib/licenses';
 	import { projectNameStylized } from '$lib/metadata';
 </script>
 
-<Metadata
+<!-- <Metadata
 	title="Licenses for Third Party Software"
 	description="Licenses for third party software used on {projectNameStylized}"
 	path="licenses"
-/>
+/> -->
 
 <main class="flex items-center justify-center p-4 sm:p-8">
 	<article class="prose">
