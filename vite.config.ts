@@ -8,6 +8,6 @@ import { licenses } from './vite-plugin-licenses';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(), Icons({ compiler: 'svelte' }), licenses()],
 	define: {
-		_GIT_COMMIT: JSON.stringify(execSync('git rev-parse HEAD').toString().trim())
+		__GIT_COMMIT: JSON.stringify(execSync('git rev-parse HEAD').toString().trim())
 	}
 });
