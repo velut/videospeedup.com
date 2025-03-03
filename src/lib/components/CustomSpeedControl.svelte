@@ -4,9 +4,9 @@
 
 	const inputId = 'custom-speed-input';
 
-	let value = '';
-	$: floatValue = parseFloat(value);
-	$: speed = Number.isFinite(floatValue) ? floatValue : 1;
+	let value = $state('');
+	let floatValue = $derived(parseFloat(value));
+	let speed = $derived(Number.isFinite(floatValue) ? floatValue : 1);
 </script>
 
 <h2 class="flex items-center gap-3">

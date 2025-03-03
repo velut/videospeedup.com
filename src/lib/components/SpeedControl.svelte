@@ -4,14 +4,18 @@
 	import IconFastForward from '~icons/noto/fast-forward-button';
 	import IconFastReverse from '~icons/noto/fast-reverse-button';
 
-	export let speed: number;
+	interface Props {
+		speed: number;
+	}
 
-	$: bookmarklet = makeBookmarklet({
+	let { speed }: Props = $props();
+
+	let bookmarklet = $derived(makeBookmarklet({
 		speed,
 		fixedSpeed: $optionFixedSpeed,
 		allMedia: $optionAllMedia,
 		includeAudio: $optionIncludeAudio
-	});
+	}));
 </script>
 
 <a

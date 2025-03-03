@@ -10,4 +10,4 @@
 	};
 </script>
 
-<button class="link-hover link" on:click={changeTheme}>Change Theme</button>
+<button class="link-hover link" onclick={changeTheme}>Change Theme</button>
