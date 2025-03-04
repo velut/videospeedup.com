@@ -16,7 +16,7 @@
 		"format": "prettier --write .",
 		"licenses:ensure": "bun run scripts/ensure-licenses-json.ts",
 		"licenses:generate": "cross-env GENERATE_LICENSES=true vite build",
-		"bunny:deploy": "tsx scripts/deploy-on-bunny.ts",
+		"bunny:deploy": "bun run scripts/deploy-on-bunny.ts",
 		"pre-push": "bun i && bun run licenses:ensure && bun run lint && bun run check && bun run build"
 	},
 	"devDependencies": {
@@ -27,15 +27,10 @@
 		"@tailwindcss/typography": "^0.5.16",
 		"@tailwindcss/vite": "^4.0.9",
 		"@types/bun": "^1.2.4",
-		"@types/klaw": "^3.0.6",
 		"@types/node": "^22.13.9",
 		"cross-env": "^7.0.3",
 		"daisyui": "^5.0.0",
-		"dotenv": "^16.4.7",
-		"hasha": "^6.0.0",
-		"klaw": "^4.1.0",
 		"modern-normalize": "^3.0.1",
-		"pathe": "^2.0.3",
 		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.11",
@@ -43,8 +38,6 @@
 		"svelte": "^5.21.0",
 		"svelte-check": "^4.1.4",
 		"tailwindcss": "^4.0.9",
-		"tslib": "^2.8.1",
-		"tsx": "^4.19.3",
 		"typescript": "^5.8.2",
 		"unplugin-icons": "^22.1.0",
 		"vite": "^6.2.0"
