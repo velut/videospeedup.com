@@ -42,7 +42,7 @@ jobs:
         run: bun run bunny:deploy
         env:
           BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+          BUNNY_PULL_ZONE_ID: ${{ secrets.BUNNY_PULL_ZONE_ID }}
           BUNNY_STORAGE_ZONE_HOSTNAME: ${{ secrets.BUNNY_STORAGE_ZONE_HOSTNAME }}
           BUNNY_STORAGE_ZONE_NAME: ${{ secrets.BUNNY_STORAGE_ZONE_NAME }}
           BUNNY_STORAGE_ZONE_PASSWORD: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
-          BUNNY_PULL_ZONE_NAME: ${{ secrets.BUNNY_PULL_ZONE_NAME }}
