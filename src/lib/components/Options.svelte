@@ -20,7 +20,7 @@
 
 <label class="flex cursor-pointer items-center gap-6">
 	<span class="flex flex-col gap-2"
-		><span class="flex items-center gap-2 font-bold"
+		><span class="flex items-center gap-2 font-bold text-balance"
 			><IconRepeatSingle class="size-5 flex-none" /> Speed controls just set their speed and never 1x</span
 		><span class="text-sm"
 			>By default, speed controls alternate between their speed (for example, 3x) and the default 1x
@@ -34,7 +34,7 @@
 
 <label class="flex cursor-pointer items-center gap-6">
 	<span class="flex flex-col gap-2"
-		><span class="flex items-center gap-2 font-bold"
+		><span class="flex items-center gap-2 font-bold text-balance"
 			><IconInfinity class="size-5 flex-none" /> Speed controls affect all media elements on a page</span
 		><span class="text-sm"
 			>By default, speed controls only affect the first video in a page. Turn on this feature to
@@ -49,7 +49,7 @@
 
 <label class="flex cursor-pointer items-center gap-6">
 	<span class="flex flex-col gap-2"
-		><span class="flex items-center gap-2 font-bold"
+		><span class="flex items-center gap-2 font-bold text-balance"
 			><IconMusicalNote class="size-5 flex-none" /> Speed controls also affect audio-only elements</span
 		><span class="text-sm"
 			>By default, speed controls only affect video elements in a page. Turn on this feature to have
