@@ -26,9 +26,9 @@
 	title="↑ Drag and drop this up to the bookmarks bar ↑"
 >
 	{#if speed >= 1}
-		<IconFastForward class="size-6" />
+		<IconFastForward class="size-6 flex-none" />
 	{:else}
-		<IconFastReverse class="size-6" />
+		<IconFastReverse class="size-6 flex-none" />
 	{/if}
 	{speed}x
 </a>

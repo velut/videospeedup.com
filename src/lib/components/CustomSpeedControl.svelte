@@ -9,7 +9,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<IconShuffleTracks class="size-8" />
+	<IconShuffleTracks class="size-8 flex-none" />
 	Custom speed control
 </h2>
 

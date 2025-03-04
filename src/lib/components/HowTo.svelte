@@ -3,7 +3,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<IconMemo class="size-8" />
+	<IconMemo class="size-8 flex-none" />
 	How to use
 </h2>
 

@@ -11,7 +11,7 @@
 <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
 	<div>
 		<a href="/" class="link-hover link flex items-center gap-2 text-xl font-bold"
-			><IconFastForward class="size-6" /> VideoSpeedup.com</a
+			><IconFastForward class="size-6 flex-none" /> VideoSpeedup.com</a
 		>
 		<p>
 			Created by <a href={authorUrl} class="link-hover link font-bold">Edoardo Scibona</a>

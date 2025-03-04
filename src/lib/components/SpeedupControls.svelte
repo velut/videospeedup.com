@@ -6,8 +6,8 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<IconFastForward class="h-8 w-8" />
-	Speedup Controls
+	<IconFastForward class="size-8 flex-none" />
+	Speedup controls
 </h2>
 
 <p>

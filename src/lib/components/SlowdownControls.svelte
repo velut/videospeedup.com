@@ -6,8 +6,8 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<IconFastReverse class="h-8 w-8" />
-	Slowdown Controls
+	<IconFastReverse class="size-8 flex-none" />
+	Slowdown controls
 </h2>
 
 <p>
