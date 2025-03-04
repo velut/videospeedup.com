@@ -11,8 +11,8 @@
 </h2>
 
 <p>
-	Drag and drop the speedup controls available below to your browser bookmarks bar and click on them
-	to watch videos at faster speeds.
+	Drag and drop the speedup controls available below to your browser's bookmarks bar and click on
+	them to watch videos at faster speeds.
 </p>
 
 <div class="not-prose mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6">

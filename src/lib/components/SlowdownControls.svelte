@@ -11,7 +11,7 @@
 </h2>
 
 <p>
-	Drag and drop the slowdown controls available below to your browser bookmarks bar and click on
+	Drag and drop the slowdown controls available below to your browser's bookmarks bar and click on
 	them to watch videos at slower speeds.
 </p>
 
