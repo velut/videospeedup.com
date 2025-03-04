@@ -3,7 +3,7 @@
 </script>
 
 <h2 class="flex items-center gap-3">
-	<IconMemo class="h-8 w-8" />
+	<IconMemo class="size-8" />
 	How to use
 </h2>
 
@@ -33,8 +33,8 @@
 	<li>
 		<p>
 			<strong>Drag and drop</strong> the desired speed controls from this page
-			<strong> to the bookmarks bar </strong> which is now visible. This will add the speed controls
-			to your browser ready to use.
+			<strong>to the bookmarks bar</strong> which is now visible. This will add the speed controls to
+			your browser ready to use.
 		</p>
 	</li>
 
