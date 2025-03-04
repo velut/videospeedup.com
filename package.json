@@ -28,7 +28,7 @@
 		"@tailwindcss/vite": "^4.0.9",
 		"@types/bun": "^1.2.4",
 		"@types/klaw": "^3.0.6",
-		"@types/node": "^22.13.8",
+		"@types/node": "^22.13.9",
 		"cross-env": "^7.0.3",
 		"daisyui": "^5.0.0",
 		"dotenv": "^16.4.7",
