@@ -20,3 +20,5 @@
 		<SpeedControl {speed} />
 	{/each}
 </div>
+
+<div class="divider"></div>

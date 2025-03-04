@@ -46,3 +46,5 @@
 		</p>
 	</li>
 </ol>
+
+<div class="divider"></div>

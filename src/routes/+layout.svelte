@@ -43,7 +43,7 @@
 	<meta name="twitter:creator" content="@EdoardoScibona" />
 </svelte:head>
 
-<div class="grid min-h-svh auto-cols-fr grid-rows-[auto_1fr_auto] gap-6">
+<div class="grid min-h-svh auto-cols-fr grid-rows-[auto_1fr_auto]">
 	<Navbar />
 	<div>
 		{@render children()}

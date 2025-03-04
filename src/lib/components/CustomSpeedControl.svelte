@@ -33,3 +33,5 @@
 	</div>
 	<SpeedControl {speed} />
 </div>
+
+<div class="divider"></div>
