@@ -4,9 +4,9 @@
 	import IconFastForward from '~icons/noto/fast-forward-button';
 	import IconFastReverse from '~icons/noto/fast-reverse-button';
 
-	interface Props {
+	type Props = {
 		speed: number;
-	}
+	};
 
 	let { speed }: Props = $props();
 
