@@ -22,5 +22,5 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# Ignore build time generated src/licenses.json
-src/licenses.json
+# Ignore build time generated third-party licenses
+static/third-party-licenses.txt
