@@ -3,6 +3,16 @@
 	"version": "0.0.0-dev",
 	"private": true,
 	"type": "module",
+	"license": "AGPL-3.0-or-later",
+	"description": "A web app to create bookmarklets to speed up videos",
+	"author": {
+		"name": "Edoardo Scibona",
+		"url": "https://github.com/velut"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/velut/videospeedup.com.git"
+	},
 	"scripts": {
 		"prepare": "svelte-kit sync || echo ''",
 		"dev": "vite dev",
