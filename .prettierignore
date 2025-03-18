@@ -12,6 +12,3 @@ package-lock.json
 pnpm-lock.yaml
 yarn.lock
 bun.lock
-
-# Ignore build time generated src/licenses.json
-src/licenses.json
