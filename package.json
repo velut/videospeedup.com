@@ -34,7 +34,7 @@
 		"@tailwindcss/typography": "^0.5.16",
 		"@tailwindcss/vite": "^4.1.8",
 		"@types/bun": "^1.2.15",
-		"@types/node": "^22.15.3",
+		"@types/node": "^22.15.29",
 		"daisyui": "^5.0.43",
 		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.4.0",
