@@ -33,7 +33,7 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@tailwindcss/typography": "^0.5.16",
 		"@tailwindcss/vite": "^4.1.8",
-		"@types/bun": "^1.2.15",
+		"@types/bun": "^1.2.17",
 		"@types/node": "^22.15.29",
 		"daisyui": "^5.0.43",
 		"prettier": "^3.5.3",
