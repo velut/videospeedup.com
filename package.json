@@ -36,7 +36,7 @@
 		"@types/bun": "^1.2.15",
 		"@types/node": "^22.15.29",
 		"daisyui": "^5.0.43",
-		"prettier": "^3.5.3",
+		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
 		"prettier-plugin-tailwindcss": "^0.6.12",
 		"rollup-plugin-license": "^3.6.0",
