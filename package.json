@@ -32,7 +32,7 @@
 		"@sveltejs/kit": "^2.22.2",
 		"@sveltejs/vite-plugin-svelte": "^5.1.0",
 		"@tailwindcss/typography": "^0.5.16",
-		"@tailwindcss/vite": "^4.1.8",
+		"@tailwindcss/vite": "^4.1.11",
 		"@types/bun": "^1.2.17",
 		"@types/node": "^22.15.29",
 		"daisyui": "^5.0.43",
