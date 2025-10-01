@@ -4,7 +4,7 @@
     "": {
       "name": "videospeedup.com",
       "devDependencies": {
-        "@iconify-json/noto": "^1.2.6",
+        "@iconify-json/noto": "^1.2.7",
         "@sveltejs/adapter-static": "^3.0.9",
         "@sveltejs/kit": "^2.37.1",
         "@sveltejs/vite-plugin-svelte": "^6.1.4",
@@ -81,7 +81,7 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.25.0", "", { "os": "win32", "cpu": "x64" }, "sha512-ZENoHJBxA20C2zFzh6AI4fT6RraMzjYw4xKWemRTRmRVtN9c5DcH9r/f2ihEkMjOW5eGgrwCslG/+Y/3bL+DHQ=="],
 
-    "@iconify-json/noto": ["@iconify-json/noto@1.2.6", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-/op9JHrJv8RZgM0trdlLoedcx9jBNZ6kYvTTRQrp9t8OWpqR60k0tHZ5Nt9SxT/ebQsrPbtVPUuv+odWwlQkUQ=="],
+    "@iconify-json/noto": ["@iconify-json/noto@1.2.7", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-2pNHliXnMLpnepNTZwR9hPBSl6GmhIfXPnudFCHY5v9pJhmA7LoVb/pFY0qLDY/k+3ikET8RXRf7XFxc/pHObA=="],
 
     "@iconify/types": ["@iconify/types@2.0.0", "", {}, "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="],
 
