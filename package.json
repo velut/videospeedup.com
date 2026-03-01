@@ -42,7 +42,7 @@
 		"rollup-plugin-license": "^3.7.0",
 		"svelte": "^5.53.6",
 		"svelte-check": "^4.4.4",
-		"tailwindcss": "^4.1.18",
+		"tailwindcss": "^4.2.1",
 		"typescript": "^5.9.3",
 		"unplugin-icons": "^23.0.1",
 		"vite": "^7.3.1"
