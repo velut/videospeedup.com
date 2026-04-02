@@ -37,7 +37,7 @@
 		"@types/node": "^25.5.0",
 		"daisyui": "^5.5.19",
 		"prettier": "^3.8.1",
-		"prettier-plugin-svelte": "^3.5.0",
+		"prettier-plugin-svelte": "^3.5.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"rollup-plugin-license": "^3.7.0",
 		"svelte": "^5.53.6",
