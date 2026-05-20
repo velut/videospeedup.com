@@ -1,6 +1,9 @@
+/// <reference types="node" />
+
 import { createHash } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { setTimeout } from 'node:timers/promises';
 
 try {
 	console.log('deploying to bunny.net...');
@@ -16,10 +19,8 @@ try {
 async function deploy() {
 	const apiKey = process.env.BUNNY_API_KEY!;
 	const pullZoneId = process.env.BUNNY_PULL_ZONE_ID!;
-	const storageZoneHostname = process.env.BUNNY_STORAGE_ZONE_HOSTNAME!;
-	const storageZoneName = process.env.BUNNY_STORAGE_ZONE_NAME!;
+	const storageZoneEndpoint = process.env.BUNNY_STORAGE_ZONE_ENDPOINT!;
 	const storageZonePassword = process.env.BUNNY_STORAGE_ZONE_PASSWORD!;
-	const storageZoneEndpoint = `https://${storageZoneHostname}/${storageZoneName}`;
 
 	// Script must be run from the project's root.
 	const buildDir = path.join(process.cwd(), 'build');
@@ -34,18 +35,27 @@ async function clearStorageZone(endpoint: string, password: string) {
 
 	// DELETE ALL FILES IN THE STORAGE ZONE.
 	const storageRootDir = `${endpoint}/`;
-	await fetch(storageRootDir, { method: 'DELETE', headers: { AccessKey: password } });
+	const deleteRes = await fetch(storageRootDir, {
+		method: 'DELETE',
+		headers: { AccessKey: password }
+	});
+	if (deleteRes.status >= 400) {
+		throw new Error('clearStorageZone: delete request failed to clear storage zone');
+	}
 
 	// Check if the storage zone was cleared.
-	await new Promise((r) => setTimeout(r, 500));
-	const res = await fetch(storageRootDir, {
+	await setTimeout(1000);
+	const listRes = await fetch(storageRootDir, {
 		method: 'GET',
 		headers: { accept: 'application/json', AccessKey: password }
 	});
-	const data = await res.json();
+	if (listRes.status >= 200) {
+		throw new Error('clearStorageZone: cannot list storage zone files');
+	}
+	const data = await listRes.json();
 	const isEmptyArray = Array.isArray(data) && data.length === 0;
 	if (!isEmptyArray) {
-		throw new Error('clearStorageZone: failed to clear storage zone');
+		throw new Error('clearStorageZone: storage zone is not empty');
 	}
 	console.log('clearStorageZone: cleared storage zone');
 }
