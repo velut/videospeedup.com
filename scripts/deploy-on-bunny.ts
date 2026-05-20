@@ -17,10 +17,10 @@ try {
 }
 
 async function deploy() {
-	const apiKey = process.env.BUNNY_API_KEY!;
-	const pullZoneId = process.env.BUNNY_PULL_ZONE_ID!;
-	const storageZoneEndpoint = process.env.BUNNY_STORAGE_ZONE_ENDPOINT!;
-	const storageZonePassword = process.env.BUNNY_STORAGE_ZONE_PASSWORD!;
+	const apiKey = getEnv('BUNNY_API_KEY');
+	const pullZoneId = getEnv('BUNNY_PULL_ZONE_ID');
+	const storageZoneEndpoint = getEnv('BUNNY_STORAGE_ZONE_ENDPOINT');
+	const storageZonePassword = getEnv('BUNNY_STORAGE_ZONE_PASSWORD');
 
 	// Script must be run from the project's root.
 	const buildDir = path.join(process.cwd(), 'build');
@@ -28,6 +28,14 @@ async function deploy() {
 	await clearStorageZone(storageZoneEndpoint, storageZonePassword);
 	await uploadFiles(buildDir, storageZoneEndpoint, storageZonePassword);
 	await purgePullZoneCache(pullZoneId, apiKey);
+}
+
+function getEnv(name: string): string {
+	const value = process.env[name];
+	if (!value) {
+		throw new Error(`${name} is: ${value}`);
+	}
+	return value;
 }
 
 async function clearStorageZone(endpoint: string, password: string) {
@@ -44,6 +52,7 @@ async function clearStorageZone(endpoint: string, password: string) {
 		headers: { AccessKey: password }
 	});
 	if (deleteRes.status >= 400) {
+		console.error(await deleteRes.json());
 		throw new Error('clearStorageZone: delete request failed to clear storage zone');
 	}
 
@@ -53,7 +62,8 @@ async function clearStorageZone(endpoint: string, password: string) {
 		method: 'GET',
 		headers: { accept: 'application/json', AccessKey: password }
 	});
-	if (listRes.status >= 200) {
+	if (listRes.status >= 400) {
+		console.error(await listRes.json());
 		throw new Error('clearStorageZone: cannot list storage zone files');
 	}
 	const data = await listRes.json();
@@ -80,6 +90,7 @@ async function uploadFiles(buildDir: string, endpoint: string, password: string)
 			body: data
 		});
 		if (res.status >= 400) {
+			console.error(await res.json());
 			throw new Error(`uploadFiles: failed to upload file: ${relativePath}`);
 		}
 		console.log(`uploadFiles: uploaded: ${relativePath}`);
@@ -94,6 +105,7 @@ async function purgePullZoneCache(pullZoneId: string, apiKey: string) {
 		headers: { 'content-type': 'application/json', AccessKey: apiKey }
 	});
 	if (res.status >= 400) {
+		console.error(await res.json());
 		throw new Error('purgePullZoneCache: failed to purge pull zone cache');
 	}
 	console.log('purgePullZoneCache: purged pull zone cache');
