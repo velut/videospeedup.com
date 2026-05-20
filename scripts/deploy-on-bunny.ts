@@ -33,6 +33,10 @@ async function deploy() {
 async function clearStorageZone(endpoint: string, password: string) {
 	console.log('clearStorageZone: clearing storage zone');
 
+	if (!endpoint.startsWith('https://storage.bunnycdn.com/')) {
+		throw new Error('clearStorageZone: invalid storage zone endpoint');
+	}
+
 	// DELETE ALL FILES IN THE STORAGE ZONE.
 	const storageRootDir = `${endpoint}/`;
 	const deleteRes = await fetch(storageRootDir, {
