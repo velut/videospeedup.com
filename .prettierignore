@@ -12,3 +12,6 @@ package-lock.json
 pnpm-lock.yaml
 yarn.lock
 bun.lock
+
+# /scripts formatted with oxfmt
+/scripts
