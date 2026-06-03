@@ -41,7 +41,7 @@
 		"prettier-plugin-tailwindcss": "^0.8.0",
 		"rollup-plugin-license": "^3.7.1",
 		"svelte": "^5.55.9",
-		"svelte-check": "^4.4.8",
+		"svelte-check": "^4.5.0",
 		"tailwindcss": "^4.3.0",
 		"typescript": "^6.0.3",
 		"unplugin-icons": "^23.0.1",
