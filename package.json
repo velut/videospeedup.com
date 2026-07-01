@@ -29,7 +29,7 @@
 	"devDependencies": {
 		"@iconify-json/noto": "^1.2.7",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.62.0",
+		"@sveltejs/kit": "^2.69.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.3.0",
