@@ -60,15 +60,13 @@ export async function licenses() {
 			output: {
 				file: 'static/third-party-licenses.txt',
 				template: (dependencies) => {
-					const foundLicenses = dependencies.map(
-						(dep): License => ({
-							name: dep.name ?? '',
-							version: dep.version ?? '',
-							license: dep.license ?? '',
-							licenseText: dep.licenseText ?? '',
-							url: dep.homepage || (dep.name ? `https://www.npmjs.com/package/${dep.name}` : '')
-						})
-					);
+					const foundLicenses = dependencies.map((dep): License => ({
+						name: dep.name ?? '',
+						version: dep.version ?? '',
+						license: dep.license ?? '',
+						licenseText: dep.licenseText ?? '',
+						url: dep.homepage || (dep.name ? `https://www.npmjs.com/package/${dep.name}` : '')
+					}));
 					return [
 						'',
 						...[...manualDeps, ...foundLicenses]
