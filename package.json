@@ -45,6 +45,6 @@
 		"tailwindcss": "^4.3.3",
 		"typescript": "^6.0.3",
 		"unplugin-icons": "^23.0.1",
-		"vite": "^8.1.2"
+		"vite": "^8.1.5"
 	}
 }
