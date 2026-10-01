@@ -27,7 +27,7 @@
 		"pre-push": "bun i && bun run lint && bun run check && bun run build"
 	},
 	"devDependencies": {
-		"@iconify-json/noto": "^1.2.7",
+		"@iconify-json/noto": "^1.2.9",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.70.1",
 		"@sveltejs/vite-plugin-svelte": "^7.2.0",
