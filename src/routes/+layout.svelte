@@ -9,7 +9,7 @@
 	let title = $derived(`${page.data.title} | VideoSpeedup.com`);
 	let description = $derived(page.data.description);
 	let url = $derived(page.url.toString());
-	let ogImageUrl = $derived(new URL('/twitter_card.jpg', page.url).toString());
+	let ogImageUrl = $derived(new URL('/twitter_card.jpg', page.url.href).toString());
 	const ogImageAlt = 'Promotional image for VideoSpeedup.com';
 </script>
 
