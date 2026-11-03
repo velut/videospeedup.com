@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { makeBookmarklet } from '$lib/make-bookmarklet';
-	import { options } from '$lib/state.svelte';
+	import { makeBookmarklet } from '#lib/make-bookmarklet.js';
+	import { options } from '#lib/state.svelte.js';
 	import IconFastForward from '~icons/noto/fast-forward-button';
 	import IconFastReverse from '~icons/noto/fast-reverse-button';
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
+	import ThemeSwitch from '#lib/components/ThemeSwitch.svelte';
 	import IconFastForward from '~icons/noto/fast-forward-button';
 
 	const authorUrl = `https://github.com/velut`;

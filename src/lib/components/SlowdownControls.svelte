@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import SpeedControl from '#lib/components/SpeedControl.svelte';
 	import IconFastReverse from '~icons/noto/fast-reverse-button';
 
 	const speeds = [0.1, 0.25, 0.5, 0.75];

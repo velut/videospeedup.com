@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import SpeedControl from '#lib/components/SpeedControl.svelte';
 	import IconShuffleTracks from '~icons/noto/shuffle-tracks-button';
 
 	const inputId = 'custom-speed-input';

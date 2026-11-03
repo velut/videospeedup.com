@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { options } from '$lib/state.svelte';
+	import { options } from '#lib/state.svelte.js';
 	import IconHammerAndWrench from '~icons/noto/hammer-and-wrench';
 	import IconInfinity from '~icons/noto/infinity';
 	import IconMusicalNote from '~icons/noto/musical-note';

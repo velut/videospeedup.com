@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SpeedControl from '$lib/components/SpeedControl.svelte';
+	import SpeedControl from '#lib/components/SpeedControl.svelte';
 	import IconFastForward from '~icons/noto/fast-forward-button';
 
 	const speeds = [1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.5, 4, 5];

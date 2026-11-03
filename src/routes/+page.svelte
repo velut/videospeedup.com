@@ -1,10 +1,10 @@
 <script lang="ts">
-	import CustomSpeedControl from '$lib/components/CustomSpeedControl.svelte';
-	import HowTo from '$lib/components/HowTo.svelte';
-	import Intro from '$lib/components/Intro.svelte';
-	import Options from '$lib/components/Options.svelte';
-	import SlowdownControls from '$lib/components/SlowdownControls.svelte';
-	import SpeedupControls from '$lib/components/SpeedupControls.svelte';
+	import CustomSpeedControl from '#lib/components/CustomSpeedControl.svelte';
+	import HowTo from '#lib/components/HowTo.svelte';
+	import Intro from '#lib/components/Intro.svelte';
+	import Options from '#lib/components/Options.svelte';
+	import SlowdownControls from '#lib/components/SlowdownControls.svelte';
+	import SpeedupControls from '#lib/components/SpeedupControls.svelte';
 </script>
 
 <main class="flex items-center justify-center p-4 sm:p-8">
