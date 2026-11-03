@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { execSync } from 'node:child_process';
 import Icons from 'unplugin-icons/vite';
 import { defineConfig, perEnvironmentPlugin } from 'vite';
-import { licenses } from './vite-plugin-licenses';
+import { licenses } from './vite-plugin-licenses.js';
 
 export default defineConfig({
 	plugins: [
